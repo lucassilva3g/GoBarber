@@ -1,0 +1,65 @@
+.container {
+  background: linear-gradient(var(--secondary) 15%, var(--primary) 0%);
+  color: var(--text);
+  height: 100vh;
+  width: 100%;
+  padding-top: 6%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  @media (min-width: 1000px) {
+    background: linear-gradient(var(--secondary) 20%, var(--primary) 0%);
+  }
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  gap: 40px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solidr var(--border-input);
+  padding-left: 10px;
+  background: var(--secondary);
+  color: var(--text);
+}
+.passwords {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.arrowLeft {
+  position: absolute;
+  left: 25px;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  @media (min-width: 808px) {
+    left: 100px;
+  }
+}

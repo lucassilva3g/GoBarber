@@ -1,0 +1,3 @@
+type GetAddressQuery = {
+  zipCode: string;
+};
